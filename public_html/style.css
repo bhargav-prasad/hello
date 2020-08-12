@@ -1,0 +1,127 @@
+/*
+
+*/
+body{max-width:1000px;margin:auto;font-family:roboto;font-size:16px;}
+h4{font:italic small-caps bolder 28px arial,sana serif;}
+div{
+    border:none;
+    margin-top:auto;
+    padding:0px;
+}
+.box{
+    display:inline-block;
+    width:40%;
+    float:left;
+}
+.list_box{
+    width:100%;
+    overflow:hidden;
+    
+}
+.left{float:left;}
+.right{float:right}
+#image{float:left;padding:0px 20px 0px 20px;}
+#identity{overflow:auto;}
+#background-image{
+    background-image: url("https://www.pubg.com/wp-content/uploads/2020/05/banner.jpg");
+    height:450px;
+    width:auto;
+    padding-top:50px;
+    color: #ffff00;
+    margin-top: 25px;
+}
+#content{
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 1000px;
+    padding:30px 30px 30px 30px;
+    margin-top:50px;
+}
+.thumbnail{
+    display:inline-block;
+    height: auto;
+
+    padding: 4px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+
+    border:none;
+
+    text-align: center;
+
+    color: #666;
+
+    margin: 50px;
+
+}
+table{
+    border:1px solid black;
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    padding:15px;
+    border:1px solid #a4a4a4;
+    height:30px;
+}
+th{
+    text-align:left;
+}
+nav{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    li {  /* change nav to li here */
+    list-style-type: none;
+    display: inline; /* making buttons appear in a line */}
+    a{color:#666;
+    padding:14px 16px;
+    text-decoration:none;
+    float:right;
+}
+.logo{
+    float:left;
+    height:1px;
+    width:1px;
+}
+#header{
+    padding:5px 0px;
+    border-bottom:1px solid;
+}
+ul {
+padding-bottom: 20px; /* To make the line come below the buttons */
+}
+
+input {
+
+    padding: 14px 70px;
+
+    font-size: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+#subscribe {
+
+    border: none;
+
+    background-color: #26211f;
+
+    color: white;
+
+    font-size: 16px;
+
+    margin: 4px -4px;
+
+    padding: 16px 40px;
+
+}
+@media (min-width:320px){.containter{width:320px;}}
+@media (min-width:481px){.containter{width:481px;}}
+@media (min-width:641px){.containter{width:641px;}}
+@media (min-width:961px){.containter{width:961px;}}
+@media (min-width:1000px){.containter{width:1000px;}}
